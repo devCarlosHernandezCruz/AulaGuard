@@ -1,0 +1,111 @@
+:root {
+    --background: #18181b;
+    --text-light: #71717a;
+    --white: #ffffff;
+    --max-width: 1200px;
+    --lora-font: 'Lora', serif;
+    --poppins-font: 'Poppins', sans-serif;
+    --lora-font: 'Lora', serif;
+    --color-card: #107acc;
+    --primary-color: #2f2f2f;
+}
+
+
+/*Estilos main*/
+
+.titulo_principal h1 {
+    margin-top: 5%;
+    font-size: 4.5rem;
+    font-weight: 600;
+    text-align: center;
+    font-family: var(--lora-font);
+}
+
+/*ESTILOS CARDS*/
+
+.seccion-cards{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 9rem;
+}
+
+.cards{
+    width: 18rem;
+    height: 18rem;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-body a{
+    margin-top: 2%;
+    background-color: white;
+    color: black;
+}
+
+.card-body a:hover{
+    background-color: blue;
+}
+
+@media (max-width: 768px) {
+    .seccion-cards {
+        flex-direction: column;
+        /* Cambia la dirección de flex a columna */
+        align-items: center;
+        /* Centra las tarjetas horizontalmente */
+    }
+
+    .cards {
+        width: 100%;
+        /* Ocupa todo el ancho disponible */
+        margin: 2% 0;
+        /* Añade margen superior e inferior */
+    }
+}
+
+/*Estilos footer*/
+
+.footer {
+    margin-top: 5%;
+    background-color: var(--background);
+    padding: 2rem 0;
+}
+
+.footer_logo h4 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    color: var(--white);
+}
+
+.footer_logo p {
+    color: var(--white);
+}
+/*Redes sociales*/
+.footer__social a {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background: #e1e1e1;
+	font-size: 15px;
+	color: #111111;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	margin-right: 6px;
+	margin-bottom: 5px;
+}
+
+.footer__social a:last-child {
+	margin-right: 0;
+}

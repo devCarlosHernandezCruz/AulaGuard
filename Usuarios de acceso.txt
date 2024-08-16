@@ -1,0 +1,19 @@
+Usuarios de acceso
+--------- ADMINISTRADOR --------
+
+correo
+admin@admin.com
+contraseña
+administrador
+
+--------- USUARIOS --------------
+
+user@gmail.com
+prueba
+
+
+Juan Carlos Hernandez Cruz Productos y Categorias
+Juan Carlos Galicia Camacho Direcciones y Citas
+Daniela Salzar Puntuaciones
+Alan Flores Cortes Usuarios
+Antonio Guadalupe Detalles de venta y venta

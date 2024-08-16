@@ -1,0 +1,113 @@
+:root {
+    --background: #18181b;
+    --text-light: #71717a;
+    --white: #ffffff;
+    --max-width: 1200px;
+    --lora-font: 'Lora', serif;
+    --poppins-font: 'Poppins', sans-serif;
+    --lora-font: 'Lora', serif;
+    --color-card: #107acc;
+    --primary-color: #2f2f2f;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.add-producto{
+    font-size: 2.2rem;
+    margin-left: 4%;
+    color: var(--background);
+}
+
+
+.bx-add-to-queue:hover{
+    font-size: 2.3rem;
+}
+
+.add-producto a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:  var(--background);
+    font-family: var(--poppins-font);
+}
+
+.add-producto a:hover{
+    font-size: 1.4rem;
+}
+
+.table-responsive{
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.table th{
+    text-align: center;
+}
+
+.table td{
+    font-size: 1rem;
+    font-family: var(--poppins-font);
+    text-align: center;
+}
+
+.bx-edit{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.bx-edit:hover{
+    color: blue;
+}
+
+.bx-trash {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.bx-trash:hover {
+    color: red;
+}
+ 
+/*Estilos footer*/
+
+.footer {
+    margin-top: 5%;
+    background-color: var(--background);
+    padding: 2rem 0;
+}
+
+.footer_logo h4 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    color: var(--white);
+}
+
+
+.footer_logo p {
+    color: var(--white);
+}
+/*Redes sociales*/
+.footer__social a {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background: #e1e1e1;
+	font-size: 15px;
+	color: #111111;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	margin-right: 6px;
+	margin-bottom: 5px;
+}
+
+.footer__social a:last-child {
+	margin-right: 0;
+}
